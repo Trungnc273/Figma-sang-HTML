@@ -38,6 +38,15 @@ button:hover {
   border: none;
   cursor: pointer;
 }
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp.line-2 {
+  -webkit-line-clamp: 2;
+}
 /* Header */
 .header {
   background: #fffcf4;
@@ -330,6 +339,7 @@ header .btn-sign-up {
   margin-top: 55px;
   display: flex;
   gap: 30px;
+  flex: 1;
 }
 
 .popular .course-item {
@@ -355,7 +365,7 @@ header .btn-sign-up {
 
 .popular .course-list .info .head {
   display: flex;
-  gap: 119px;
+  justify-content: space-between;
 }
 .popular .course-list .info .title {
   color: #171100;
