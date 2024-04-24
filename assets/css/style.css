@@ -532,7 +532,7 @@ header .btn-sign-up {
 }
 
 .features .content {
-  margin-left: 130px;
+  width: 470px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -554,4 +554,111 @@ header .btn-sign-up {
   border-radius: 26px;
   background: var(--button-yellow);
   margin-top: 32px;
+}
+
+.features2 .img3 {
+  width: 470px;
+  height: 440px;
+  flex-shrink: 0;
+}
+
+.features2 .content,
+.features2 .heading-lv2,
+.features2 .descript {
+  width: 570px;
+}
+
+/* ==========blogs=============== */
+.blogs {
+  background: #fffcf4;
+  margin-top: 200px;
+  padding: 96px 0;
+}
+
+.blog-top {
+  text-align: center;
+}
+
+.blog-top .descript {
+  width: 448px;
+  color: #696262;
+  margin: 16px auto 55px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.blog-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-bottom .item {
+  width: 370px;
+  height: 467px;
+  flex-shrink: 0;
+  background: #fff;
+}
+
+.blog-bottom .item:hover {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blog-bottom .date {
+  display: inline-flex;
+  margin-top: 20px;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  align-items: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.blog-bottom .date::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+  background-color: var(--button-yellow);
+  border-radius: 50%;
+  margin: 0 4px 0 20px;
+}
+
+.blog-bottom .date::after {
+  position: absolute;
+  left: 20px;
+  top: 38px;
+  content: "";
+  display: inline-block;
+  right: -27px;
+  height: 1px;
+  flex-shrink: 0;
+  border-radius: 0.5px;
+  background: #e2dfda;
+}
+
+.blog-bottom .title {
+  width: 330px;
+  color: #171100;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 28px; /* 175% */
+  margin: 0 0 12px 20px;
+}
+
+.blog-bottom .btn {
+  width: 118px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #171100;
+  margin-left: 20px;
+}
+
+.blog-bottom .btn:hover {
+  background-color: var(--button-yellow);
+  opacity: 1;
 }
