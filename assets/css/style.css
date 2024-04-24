@@ -7,7 +7,6 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   flex-shrink: 0;
-  height: 100000px;
 }
 .main-content {
   width: 1170px;
@@ -691,4 +690,88 @@ header .btn-sign-up {
 .blogs .dot.active {
   background: var(--button-yellow);
   cursor: default;
+}
+
+/* ==========footer=============== */
+footer {
+  background: #2e2100;
+  padding: 96px 0 28px 135px;
+}
+
+.footer .row {
+  display: flex;
+  border-bottom: 1px solid #59554b;
+  padding-bottom: 26px;
+}
+
+.footer .row .column {
+  width: 22.222%;
+}
+
+footer .row .column:first-child {
+  width: 35.214%;
+}
+
+footer .row .column:last-child {
+  width: 19.743%;
+}
+
+.footer .logo {
+  width: 85px;
+  height: 34px;
+}
+
+.footer .descript {
+  margin-top: 18px;
+  width: 267px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 185.714%;
+}
+
+.footer .socials {
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+}
+
+.footer .row .title {
+  display: inline-block;
+  padding-right: 48px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #59554b;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 175%;
+}
+
+.footer .row .list {
+  margin-top: 28px;
+}
+
+footer .row .list a {
+  display: inline-block;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 185.714%;
+  margin-bottom: 12px;
+}
+
+footer .list strong {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 185.714%;
+}
+
+.footer .copyright {
+  margin-top: 28px;
+  color: #807d74;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 185.714%;
 }
