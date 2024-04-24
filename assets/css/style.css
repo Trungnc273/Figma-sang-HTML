@@ -590,7 +590,12 @@ header .btn-sign-up {
 
 .blog-bottom {
   display: flex;
-  justify-content: space-between;
+  position: relative;
+  gap: 30px;
+  overflow: hidden;
+  height: 499px;
+  width: 1202px;
+  margin-left: -16px;
 }
 
 .blog-bottom .item {
@@ -600,8 +605,12 @@ header .btn-sign-up {
   background: #fff;
 }
 
+.blog-bottom .item:first-child {
+  margin-left: 16px;
+}
 .blog-bottom .item:hover {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
 }
 
 .blog-bottom .date {
@@ -661,4 +670,25 @@ header .btn-sign-up {
 .blog-bottom .btn:hover {
   background-color: var(--button-yellow);
   opacity: 1;
+}
+
+.blogs .dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+  justify-content: center;
+}
+
+.blogs .dot {
+  width: 6px;
+  height: 6px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #5f5b53;
+  cursor: pointer;
+}
+
+.blogs .dot.active {
+  background: var(--button-yellow);
+  cursor: default;
 }
